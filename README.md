@@ -90,7 +90,7 @@ Desarrollador Junior con formación en desarrollo de aplicaciones multiplataform
 
 ---
 
-## 📂 Repositorios Destacados
+##  Repositorios Destacados
 
 - 🔗 [Proyecto 1](https://github.com/MarcosLuisVives/Api-en-Python.git)
 - 🔗 [Proyecto 2](https://github.com/MarcosLuisVives/GestionEmpleadosIIIApi.git)
@@ -99,7 +99,7 @@ Desarrollador Junior con formación en desarrollo de aplicaciones multiplataform
 
 ---
 
-## 📬 Contacto
+##  Contacto
 
 Puedes conectar conmigo a través de:
 
@@ -109,7 +109,7 @@ Puedes conectar conmigo a través de:
 
 ---
 
-## 🎯 Objetivos Profesionales
+##  Objetivos Profesionales
 
 - Consolidarme como Desarrollador Backend especializado
 - Contribuir a proyectos innovadores y de impacto
