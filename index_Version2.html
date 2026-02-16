@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de Marcos Contreras - Desarrollador Junior especializado en backend">
+    <title>Marcos Contreras | Desarrollador Junior</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #667eea;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+
+        /* Main Content */
+        .main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+
+        .card h3 {
+            color: #764ba2;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .card p {
+            color: #666;
+            margin-bottom: 0.5rem;
+            line-height: 1.8;
+        }
+
+        .card ul {
+            margin-left: 1.5rem;
+            color: #666;
+        }
+
+        .card ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background: #e8eaf6;
+            color: #667eea;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            margin: 0.3rem;
+            font-size: 0.9rem;
+        }
+
+        /* Projects Section */
+        .projects {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 2rem;
+        }
+
+        .projects h2 {
+            color: #667eea;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+
+        .project-item {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+
+        .project-item h3 {
+            color: #764ba2;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-item p {
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .project-link:hover {
+            color: #764ba2;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(0, 0, 0, 0.1);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .main {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .card, .projects {
+                padding: 1.5rem;
+            }
+
+            .social-links {
+                flex-direction: column;
+            }
+
+            .social-links a {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1> Marcos Contreras Albalá</h1>
+            <p>Desarrollador Junior | Backend Specialist | DAM Student</p>
+            <div class="social-links">
+                <a href="https://github.com/MarcosLuisVives" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a>
+                <a href="mailto:tu-email@example.com">Email</a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main">
+            <!-- About Section -->
+            <div class="card">
+                <h2> Sobre Mí</h2>
+                <p>
+                    Desarrollador Junior con formación en desarrollo de aplicaciones multiplataforma y experiencia práctica en backend. Apasionado por la programación, con capacidad para resolver problemas de forma eficiente y aprender rápidamente nuevas tecnologías.
+                </p>
+                <p>
+                    Busco consolidarme como desarrollador avanzado en un entorno colaborativo y dinámico, contribuyendo a proyectos innovadores y de impacto.
+                </p>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="card">
+                <h2> Experiencia</h2>
+                <h3>Becario Backend – EXCELIA</h3>
+                <p><strong>2025 | 120 horas</strong></p>
+                <ul>
+                    <li>Desarrollo de APIs REST usando C#</li>
+                    <li>Mejora de procesos internos mediante automatización</li>
+                    <li>Metodologías ágiles y buenas prácticas</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="card">
+            <h2> Habilidades Técnicas</h2>
+            
+            <h3>Lenguajes de Programación</h3>
+            <div>
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Kotlin</span>
+                <span class="skill-tag">C#</span>
+                <span class="skill-tag">Python</span>
+            </div>
+
+            <h3>Desarrollo Web</h3>
+            <div>
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">Responsive Design</span>
+            </div>
+
+            <h3>Bases de Datos</h3>
+            <div>
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">PL/SQL</span>
+            </div>
+
+            <h3>Cloud & DevOps</h3>
+            <div>
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Linux</span>
+            </div>
+
+            <h3>Frameworks & Tools</h3>
+            <div>
+                <span class="skill-tag">SpringBoot</span>
+                <span class="skill-tag">REST APIs</span>
+                <span class="skill-tag">Unity</span>
+                <span class="skill-tag">Odoo</span>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="projects">
+            <h2> Proyectos Realizados</h2>
+
+            <div class="project-item">
+                <h3>Portafolio personal en SpringBoot</h3>
+                <p>Desarrollo de un portafolio personal</p>
+                <p> Tecnologías: SpringBoot, REST, Bases de datos</p>
+            </div>
+            
+<div class="project-item">
+                <h3>Desarrollo Api en Python</h3>
+                <p>Directorio de empleados</p>
+                <p> Tecnologías: python, REST, Bases de datos</p>
+            </div>
+
+            <div class="project-item">
+                <h3>APIs REST en C# </h3>
+                <p>Desarrollo de APIs RESTful con experiencia profesional (EXCELIA) y académica (DAM)</p>
+                <p> Tecnologías: C#, REST, Bases de datos</p>
+            </div>
+
+            <div class="project-item">
+                <h3>TFG DAM (En Desarrollo)</h3>
+                <p>Proyecto final de ciclo en Desarrollo de Aplicaciones Multiplataforma</p>
+                <p> Estado: En curso | IES Luis Vives</p>
+            </div>
+        </div>
+
+        <!-- Formation Section -->
+        <div class="card">
+            <h2> Formación</h2>
+            <h3>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
+            <p><strong>IES Luis Vives, Leganés</strong></p>
+            <p><strong>2024 – 2026</strong></p>
+            <ul>
+                <li>Programación Orientada a Objetos</li>
+                <li>Diseño de Interfaces con Kotlin</li>
+                <li>Desarrollo Web </li>
+                <li>Gestión de Bases de Datos</li>
+                <li>Proyecto Final de Grado (TFG)</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Marcos Contreras Albalá. Todos los derechos reservados.</p>
+            <p> <a href="https://github.com/MarcosLuisVives" style="color: white; text-decoration: underline;">Ver en GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
