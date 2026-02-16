@@ -74,14 +74,14 @@ Desarrollador Junior con formación en desarrollo de aplicaciones multiplataform
 
 ##  Proyectos Destacados
 
-### 1. **APIs REST en C# y SpringBoot**
+### 1. **APIs REST en C# **
 - Desarrollo de APIs RESTful con buenas prácticas
 - Integración con bases de datos relacionales
 
-### 2. **Interfaces Web Responsivas**
-- Diseño y desarrollo con HTML, CSS y Kotlin
-- Aplicaciones multiplataforma
-- Enfoque en UX/UI
+### 2. **API en python**
+- Desarrollo de una api en python
+- Acceso a bases de datos
+- Despliegue en Docker
 
 ### 3. **Proyecto Final de Grado (TFG)**
 - Actualmente en desarrollo
@@ -92,9 +92,9 @@ Desarrollador Junior con formación en desarrollo de aplicaciones multiplataform
 
 ## 📂 Repositorios Destacados
 
-- 🔗 [Proyecto 1](https://github.com/MarcosLuisVives/repo1)
-- 🔗 [Proyecto 2](https://github.com/MarcosLuisVives/repo2)
-- 🔗 [Proyecto 3](https://github.com/MarcosLuisVives/repo3)
+- 🔗 [Proyecto 1](https://github.com/MarcosLuisVives/Api-en-Python.git)
+- 🔗 [Proyecto 2](https://github.com/MarcosLuisVives/GestionEmpleadosIIIApi.git)
+- 🔗 [Proyecto 3](https://github.com/SERGICBG17/DemoIbermon.git)
 - 🔗 [Ver todos mis repositorios](https://github.com/MarcosLuisVives?tab=repositories)
 
 ---
